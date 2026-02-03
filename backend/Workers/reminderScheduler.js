@@ -1,4 +1,4 @@
-const cron = require('node-cron');
+ const cron = require('node-cron');
 const { queueReminder } = require('../Services/notificationService');
 const Appointment = require('../Models/Appointment');
 const User = require('../Models/User');
